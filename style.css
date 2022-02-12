@@ -5,7 +5,7 @@
 /* name intrro */
 .waviy {
   position: relative;
-  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, 0.342));
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, 0.466));
   font-size: 25px;
 }
 .waviy #one {
@@ -16,7 +16,7 @@
   text-transform: uppercase;
   animation: waviy 1s infinite;
   animation-delay: calc(.1s * var(--i));
-  color: red;
+  color: gold;
   
 }
 @keyframes waviy {
@@ -27,7 +27,12 @@
     transform: translateY(-20px)
   }
 }
+#mypicture {
+    box-shadow: 5px 5px 200px teal;
+    margin-top: 8%;
+    border-radius: 5rem;
 
+}
 #about-one {
     display: flex;
     margin-top: 10%;
@@ -81,13 +86,16 @@
     height: 100px;
 }
 
-#skills-head {
+.skills-head {
 
     font-size: 1.3em;
    
 }
-#skills-head:hover {
-
+button:hover {
+    box-shadow: 2px 2px 2px teal;
+}
+.skills-head:hover {
+ cursor: pointer;
    color: teal;
    
 }
@@ -96,7 +104,7 @@
 }
 .radiuous-div:hover {
 
-    box-shadow: 5px 5px 2px teal;
+    box-shadow: 5px 5px 50px teal;
 }
 
 a {

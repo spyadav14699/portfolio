@@ -26,7 +26,8 @@ h1 {
 <!-- Icon Bar (Sidebar - hidden on small screens) -->
 <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
   <!-- Avatar image in top left corner -->
-  <img src="./image/Surya_profile.jpg" style="width:100%">
+
+
   <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
     <i class="fa fa-home w3-xxlarge"></i>
 
@@ -37,7 +38,11 @@ h1 {
     <i class="fa fa-user w3-xxlarge"></i>
     <p>ABOUT</p>
   </a>
-  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+  <a href="#skill" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-cog w3-xxlarge"></i>
+    <p>SKILLS</p>
+  </a>
+  <a href="#project" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
     <i class="fa fa-eye w3-xxlarge"></i>
     <p>PROJECTS</p>
   </a>
@@ -52,6 +57,7 @@ h1 {
   <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
     <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
     <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#skill" class="w3-bar-item w3-button" style="width:25% !important">SKILLS</a>
     <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
     <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
   </div>
@@ -62,7 +68,7 @@ h1 {
   <!-- Header/Home -->
   <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
     <h1 class="w3-jumbo"><span class="w3-hide-small"> <h2>Hello &#128075; , I am</h2> 
-    </span> Surya Pratap Yadav.</h1>
+    </span> Surya Pratap Yadav</h1>
 
     
     <body>
@@ -94,11 +100,11 @@ h1 {
        </div>
      </body>
 
-<div class="imahge">
 
-  <img src="./image/surya_profile.jpg" alt="boy" class="w3-image" width="500" height="500">
 
-</div>
+  <img id="mypicture" src="./image/surya_profile.jpg" alt="boy" class="w3-image" width="500" height="500">
+
+
 
   </header>
 
@@ -123,13 +129,13 @@ h1 {
 <div id="socialmedia">
   
   
- <a href="">
+ <a href="https://twitter.com/SPYADAVg" target="_blank">
    <i id="socialteet" class="fa">&#xf099;</i>
  </a> 
- <a href="">
+ <a href="https://www.linkedin.com/in/surya-yadav-924b311a1/" target="_blank" >
   <i id="socialteet" class="fa">&#xf08c;</i>
 </a>
-<a href="">
+<a href="https://github.com/spyadav14699" target="_blank" >
   <i id="socialteet" class="fa">&#xf09b;</i>
 </a>
 
@@ -159,8 +165,8 @@ h1 {
 
 
 
-    <h3 class="w3-padding-16 w3-text-light-grey ">My Skills</h3>
-    
+    <h3 class="w3-padding-16 w3-text-light-grey" id="skill">My Skills</h3>
+   
  
     <div  class="w3-row w3-center skill-hover w3-padding-16 w3-section w3-light-grey radiuous-div">
       <div id="slikks-div" class="w3-quarter w3-section">
@@ -219,6 +225,34 @@ h1 {
         </span><br>
         <h3 class="skills-head"> <b>Redux</b> </h3>
       </div>
+
+      <div id="slikks-div" class="w3-quarter w3-section">
+        <span class="w3-xlarge">
+          <img id="skills" src="./image/svgs/NPM.png" alt="">
+        </span><br>
+        <h3 class="skills-head"> <b>NPM</b> </h3>
+      </div>
+
+      <div id="slikks-div" class="w3-quarter w3-section">
+        <span class="w3-xlarge">
+          <img id="skills" src="./image/svgs/git.svg" alt="">
+        </span><br>
+        <h3 class="skills-head"> <b>GIT</b> </h3>
+      </div>
+
+      <div id="slikks-div" class="w3-quarter w3-section">
+        <span class="w3-xlarge">
+          <img id="skills" src="./image/svgs/bootstrap.png" alt="">
+        </span><br>
+        <h3 class="skills-head"> <b>BOOTSTRAP</b> </h3>
+      </div>
+
+      <div id="slikks-div" class="w3-quarter w3-section">
+        <span class="w3-xlarge">
+          <img id="skills" src="./image/svgs/SEO.png" alt="">
+        </span><br>
+        <h3 class="skills-head"> <b>SEO</b> </h3>
+      </div>
       
       
 
@@ -250,17 +284,24 @@ h1 {
 
     
     <!-- Grid for pricing tables -->
-    <h3 class="w3-padding-16 w3-text-light-grey">Things I've Built</h3>
+    <h3 class="w3-padding-16 w3-text-light-grey" id="project">Things I've Built</h3>
+    
+    <!-- snake game -->
+    
     <div class="w3-row-padding" style="margin:0 -16px">
       <div class="w3-half w3-margin-bottom">
         <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
           <li class="w3-dark-grey w3-xlarge w3-padding-32">Snake Game</li>
          
 
-     <img id="projext_img" src="./image/surya_profile.jpg" alt="">
+     <img id="projext_img" src="./image/projectImage/Snake.png" alt="">
 
           <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+            <a href="https://stoic-ritchie-8453f1.netlify.app/" target="_blank">
+
+              <button class="w3-button w3-white w3-padding-large w3-hover-black">Play</button>
+            </a>
+            
           </li>
         </ul>
       </div>
@@ -283,12 +324,12 @@ h1 {
              <br><br>
 
              
-             <a href="">
+             <a href="https://github.com/spyadav14699/Snake_game" target="_blank">
                <i id="socialteet" class="fa">&#xf09b;</i>
              </a>
              <br>
              <br>
-             <a href="">
+             <a href="https://stoic-ritchie-8453f1.netlify.app/" target="_blank">
               <i id="socialteet" class="fa">&#xf08e;</i>
             </a>
              
@@ -300,24 +341,99 @@ h1 {
         <br>
 
           <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+            <a href="https://medium.com/@SPYADAVg/snake-game-cffc492d039f" target="_blank">
+              <button class="w3-button w3-white w3-padding-large w3-hover-black">Read Blog</button>
+
+            </a>
           </li>
         </ul>
       </div>
     <!-- End Grid/Pricing tables -->
     </div>
 
+  <!-- tanishq -->
+
+  <div class="w3-row-padding" style="margin:0 -16px">
+    <div class="w3-half w3-margin-bottom">
+      <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+        <li class="w3-dark-grey w3-xlarge w3-padding-32">Snake Game</li>
+       
+
+   <img id="projext_img" src="./image/projectImage/tanishq.webp" alt="">
+
+        <li class="w3-light-grey w3-padding-24">
+          <a href="" target="_blank">
+
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Play</button>
+          </a>
+          
+        </li>
+      </ul>
+    </div>
+
+    
+    <div class="w3-half">
+      <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+        <li class="w3-dark-grey w3-xlarge w3-padding-32">Overview</li>
+        <li class="w3-padding-16"><h3>Nostalgia Snake Game</h3></li>
+        <li class="w3-padding-16">A tribute to nokia keypad phone <br>
+        who makes us to communicate to teck
+      <br>
+    <br></li>
+        
+        <li class="w3-padding-16"><b>HTML &nbsp; CSS &nbsp; JAVASCRIPT</b></li>
+        <li class="w3-padding-16">
+          <div id="socialmedia">
+
+           <br>
+           <br><br>
+
+           
+           <a href="https://github.com/spyadav14699/Snake_game" target="_blank">
+             <i id="socialteet" class="fa">&#xf09b;</i>
+           </a>
+           <br>
+           <br>
+           <a href="https://stoic-ritchie-8453f1.netlify.app/" target="_blank">
+            <i id="socialteet" class="fa">&#xf08e;</i>
+          </a>
+           
+             
+             
+           </div>
+        </li>
+      <br>
+      <br>
+
+        <li class="w3-light-grey w3-padding-24">
+          <a href="https://medium.com/@SPYADAVg/snake-game-cffc492d039f" target="_blank">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Read Blog</button>
+
+          </a>
+        </li>
+      </ul>
+    </div>
+  <!-- End Grid/Pricing tables -->
+  </div>
+
+
+
+  <!-- spackenk clone -->
 
     <div class="w3-row-padding" style="margin:0 -16px">
       <div class="w3-half w3-margin-bottom">
         <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">Snake Game</li>
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Clone Spacenk.com</li>
          
 
-     <img id="projext_img" src="./image/surya_profile.jpg" alt="">
+     <img id="projext_img" src="./image/projectImage/spaceink.png" alt="">
 
           <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+            <a href="https://www.linkedin.com/feed/update/urn:li:activity:6879099994176147457/" target="_blank">
+
+              <button class="w3-button w3-white w3-padding-large w3-hover-black">Watch</button>
+            </a>
+            
           </li>
         </ul>
       </div>
@@ -326,13 +442,12 @@ h1 {
       <div class="w3-half">
         <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
           <li class="w3-dark-grey w3-xlarge w3-padding-32">Overview</li>
-          <li class="w3-padding-16"><h3>Nostalgia Snake Game</h3></li>
-          <li class="w3-padding-16">A tribute to nokia keypad phone <br>
-          who makes us to communicate to teck
+          <li class="w3-padding-16"><h3>Clone-of-spacenk</h3></li>
+          <li class="w3-padding-16">spacenk is UK based e-commerce websile
         <br>
       <br></li>
           
-          <li class="w3-padding-16"><b>HTML &nbsp; CSS &nbsp; JAVASCRIPT</b></li>
+          <li class="w3-padding-16"><b>HTML &nbsp; CSS &nbsp; JAVASCRIPT &nbsp; Local Storage </b></li>
           <li class="w3-padding-16">
             <div id="socialmedia">
 
@@ -340,12 +455,12 @@ h1 {
              <br><br>
 
              
-             <a href="">
+             <a href="https://github.com/spyadav14699/clone-of-spacenk" target="_blank">
                <i id="socialteet" class="fa">&#xf09b;</i>
              </a>
              <br>
              <br>
-             <a href="">
+             <a href="https://www.linkedin.com/feed/update/urn:li:activity:6879099994176147457/" target="_blank">
               <i id="socialteet" class="fa">&#xf08e;</i>
             </a>
              
@@ -357,120 +472,10 @@ h1 {
         <br>
 
           <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
-          </li>
-        </ul>
-      </div>
-    <!-- End Grid/Pricing tables -->
-    </div>
+            <a href="https://medium.com/@SPYADAVg/clone-of-spacenk-com-a6873817be1a" target="_blank">
+              <button class="w3-button w3-white w3-padding-large w3-hover-black">Read Blog</button>
 
-
-    <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-half w3-margin-bottom">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">Snake Game</li>
-         
-
-     <img id="projext_img" src="./image/surya_profile.jpg" alt="">
-
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
-          </li>
-        </ul>
-      </div>
-
-      
-      <div class="w3-half">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">Overview</li>
-          <li class="w3-padding-16"><h3>Nostalgia Snake Game</h3></li>
-          <li class="w3-padding-16">A tribute to nokia keypad phone <br>
-          who makes us to communicate to teck
-        <br>
-      <br></li>
-          
-          <li class="w3-padding-16"><b>HTML &nbsp; CSS &nbsp; JAVASCRIPT</b></li>
-          <li class="w3-padding-16">
-            <div id="socialmedia">
-
-             <br>
-             <br><br>
-
-             
-             <a href="">
-               <i id="socialteet" class="fa">&#xf09b;</i>
-             </a>
-             <br>
-             <br>
-             <a href="">
-              <i id="socialteet" class="fa">&#xf08e;</i>
             </a>
-             
-               
-               
-             </div>
-          </li>
-        <br>
-        <br>
-
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
-          </li>
-        </ul>
-      </div>
-    <!-- End Grid/Pricing tables -->
-    </div>
-
-    <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-half w3-margin-bottom">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">Snake Game</li>
-         
-
-     <img id="projext_img" src="./image/surya_profile.jpg" alt="">
-
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
-          </li>
-        </ul>
-      </div>
-
-      
-      <div class="w3-half">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">Overview</li>
-          <li class="w3-padding-16"><h3>Nostalgia Snake Game</h3></li>
-          <li class="w3-padding-16">A tribute to nokia keypad phone <br>
-          who makes us to communicate to teck
-        <br>
-      <br></li>
-          
-          <li class="w3-padding-16"><b>HTML &nbsp; CSS &nbsp; JAVASCRIPT</b></li>
-          <li class="w3-padding-16">
-            <div id="socialmedia">
-
-             <br>
-             <br><br>
-
-             
-             <a href="">
-               <i id="socialteet" class="fa">&#xf09b;</i>
-             </a>
-             <br>
-             <br>
-             <a href="">
-              <i id="socialteet" class="fa">&#xf08e;</i>
-            </a>
-             
-               
-               
-             </div>
-          </li>
-        <br>
-        <br>
-
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
           </li>
         </ul>
       </div>
@@ -478,173 +483,9 @@ h1 {
     </div>
 
 
-    <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-half w3-margin-bottom">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">Snake Game</li>
-         
 
-     <img id="projext_img" src="./image/surya_profile.jpg" alt="">
 
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
-          </li>
-        </ul>
-      </div>
-
-      
-      <div class="w3-half">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">Overview</li>
-          <li class="w3-padding-16"><h3>Nostalgia Snake Game</h3></li>
-          <li class="w3-padding-16">A tribute to nokia keypad phone <br>
-          who makes us to communicate to teck
-        <br>
-      <br></li>
-          
-          <li class="w3-padding-16"><b>HTML &nbsp; CSS &nbsp; JAVASCRIPT</b></li>
-          <li class="w3-padding-16">
-            <div id="socialmedia">
-
-             <br>
-             <br><br>
-
-             
-             <a href="">
-               <i id="socialteet" class="fa">&#xf09b;</i>
-             </a>
-             <br>
-             <br>
-             <a href="">
-              <i id="socialteet" class="fa">&#xf08e;</i>
-            </a>
-             
-               
-               
-             </div>
-          </li>
-        <br>
-        <br>
-
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
-          </li>
-        </ul>
-      </div>
-    <!-- End Grid/Pricing tables -->
-    </div>
-
-    <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-half w3-margin-bottom">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">Snake Game</li>
-         
-
-     <img id="projext_img" src="./image/surya_profile.jpg" alt="">
-
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
-          </li>
-        </ul>
-      </div>
-
-      
-      <div class="w3-half">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">Overview</li>
-          <li class="w3-padding-16"><h3>Nostalgia Snake Game</h3></li>
-          <li class="w3-padding-16">A tribute to nokia keypad phone <br>
-          who makes us to communicate to teck
-        <br>
-      <br></li>
-          
-          <li class="w3-padding-16"><b>HTML &nbsp; CSS &nbsp; JAVASCRIPT</b></li>
-          <li class="w3-padding-16">
-            <div id="socialmedia">
-
-             <br>
-             <br><br>
-
-             
-             <a href="">
-               <i id="socialteet" class="fa">&#xf09b;</i>
-             </a>
-             <br>
-             <br>
-             <a href="">
-              <i id="socialteet" class="fa">&#xf08e;</i>
-            </a>
-             
-               
-               
-             </div>
-          </li>
-        <br>
-        <br>
-
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
-          </li>
-        </ul>
-      </div>
-    <!-- End Grid/Pricing tables -->
-    </div>
-
-    <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-half w3-margin-bottom">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">Snake Game</li>
-         
-
-     <img id="projext_img" src="./image/surya_profile.jpg" alt="">
-
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
-          </li>
-        </ul>
-      </div>
-
-      
-      <div class="w3-half">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">Overview</li>
-          <li class="w3-padding-16"><h3>Nostalgia Snake Game</h3></li>
-          <li class="w3-padding-16">A tribute to nokia keypad phone <br>
-          who makes us to communicate to teck
-        <br>
-      <br></li>
-          
-          <li class="w3-padding-16"><b>HTML &nbsp; CSS &nbsp; JAVASCRIPT</b></li>
-          <li class="w3-padding-16">
-            <div id="socialmedia">
-
-             <br>
-             <br><br>
-
-             
-             <a href="">
-               <i id="socialteet" class="fa">&#xf09b;</i>
-             </a>
-             <br>
-             <br>
-             <a href="">
-              <i id="socialteet" class="fa">&#xf08e;</i>
-            </a>
-             
-               
-               
-             </div>
-          </li>
-        <br>
-        <br>
-
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
-          </li>
-        </ul>
-      </div>
-    <!-- End Grid/Pricing tables -->
-    </div>
+   
 
 
 
@@ -699,15 +540,16 @@ h1 {
     </div><br>
     <p>Let's get in touch. Send me a message:</p>
 
-    <form action="/action_page.php" target="_blank">
+    <form action="mailto:spyadav14699@gmail.com" method="post" enctype="text/plain" target="_blank">
       <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
       <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
       <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
       <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
       <p>
-        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
-          <i class="fa fa-paper-plane"></i> SEND MESSAGE
-        </button>
+        <input type="submit" value="SEND MESSAGE" class="w3-button w3-light-grey w3-padding-large">
+        
+        <input type="reset" value="RESET" class="w3-button w3-light-grey w3-padding-large">
+        
       </p>
     </form>
   <!-- End Contact Section -->
