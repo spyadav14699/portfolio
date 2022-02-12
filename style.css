@@ -1,4 +1,138 @@
-/* W3.CSS 4.13 June 2019 by Jan Egil and Borge Refsnes */
+
+
+
+
+/* name intrro */
+.waviy {
+  position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, 0.342));
+  font-size: 25px;
+}
+.waviy #one {
+  font-family: 'Alfa Slab One', cursive;
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  animation: waviy 1s infinite;
+  animation-delay: calc(.1s * var(--i));
+  color: red;
+  
+}
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
+  }
+}
+
+#about-one {
+    display: flex;
+    margin-top: 10%;
+    gap: 10%;
+}
+#imahge {
+    margin-top: 10%;
+}
+
+#display-about {
+    display: flex;
+    gap: 4%;
+    /* margin: auto; */
+    width: 30%;
+}
+
+#icon-for {
+    font-size: 3em;
+    color: white;
+}
+#display-about:hover > #icon-for  {
+    
+    color: turquoise;
+}
+#mail {
+    font-size: 20PX;
+    margin: auto;
+}
+
+
+#socialmedia {
+    margin-top: 20%;
+    width: 50%;
+    display: flex;
+    margin: auto;
+    gap: 10%;
+    
+}
+
+#socialteet {
+    font-size: 4em;
+
+}
+#socialteet:hover {
+
+    color: turquoise;
+}
+
+#skills {
+    width: 100px;
+    height: 100px;
+}
+
+#skills-head {
+
+    font-size: 1.3em;
+   
+}
+#skills-head:hover {
+
+   color: teal;
+   
+}
+.radiuous-div {
+    border-radius: 1rem;
+}
+.radiuous-div:hover {
+
+    box-shadow: 5px 5px 2px teal;
+}
+
+a {
+    text-decoration: none;
+}
+
+#projext_img {
+  width: 20rem;
+  height: 25rem;
+    border: 2px solid white;
+}
+
+#projext_img:hover {
+    box-shadow: 5px 5px 2px rgba(0, 128, 128, 0.445);
+}
+
+#same_size_div{
+    width: 30rem;
+  height: 355rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 /* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
 html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
@@ -92,6 +226,8 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 @media (min-width:993px){.w3-modal-content{width:900px}.w3-hide-large{display:none!important}.w3-sidebar.w3-collapse{display:block!important}}
 @media (max-width:992px) and (min-width:601px){.w3-hide-medium{display:none!important}}
 @media (max-width:992px){.w3-sidebar.w3-collapse{display:none}.w3-main{margin-left:0!important;margin-right:0!important}.w3-auto{max-width:100%}}
+
+
 .w3-top,.w3-bottom{position:fixed;width:100%;z-index:1}.w3-top{top:0}.w3-bottom{bottom:0}
 .w3-overlay{position:fixed;display:none;width:100%;height:100%;top:0;left:0;right:0;bottom:0;background-color:rgba(0,0,0,0.5);z-index:2}
 .w3-display-topleft{position:absolute;left:0;top:0}.w3-display-topright{position:absolute;right:0;top:0}
