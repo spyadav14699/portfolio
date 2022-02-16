@@ -101,11 +101,12 @@ button:hover {
 }
 .radiuous-div {
     border-radius: 1rem;
+    background-color: #000;
 }
-.radiuous-div:hover {
+/* .radiuous-div:hover {
 
     box-shadow: 5px 5px 50px teal;
-}
+} */
 
 a {
     text-decoration: none;
@@ -130,9 +131,22 @@ a {
     box-shadow: 5px 5px 2px rgba(0, 128, 128, 0.445);
 }
 
-#Icon_rushali:hover {
-   
+#textp {
+    font-size: 1.2rem;
 }
+#skill {
+    font-size: 2rem;
+}
+#project {
+    font-size: 2rem;
+}
+
+#experience {
+    font-size: 2rem;
+}
+
+
+
 
 
 
@@ -350,7 +364,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-text-yellow,.w3-hover-text-yellow:hover{color:#d2be0e!important}
 .w3-text-white,.w3-hover-text-white:hover{color:#fff!important}
 .w3-text-black,.w3-hover-text-black:hover{color:#000!important}
-.w3-text-grey,.w3-hover-text-grey:hover,.w3-text-gray,.w3-hover-text-gray:hover{color:#757575!important}
+.w3-text-grey,.w3-hover-text-grey:hover,.w3-text-gray,.w3-hover-text-gray:hover{color:rgba(255, 255, 255, 0.863)!important}
 .w3-text-light-grey,.w3-hover-text-light-grey:hover,.w3-text-light-gray,.w3-hover-text-light-gray:hover{color:#f1f1f1!important}
 .w3-text-dark-grey,.w3-hover-text-dark-grey:hover,.w3-text-dark-gray,.w3-hover-text-dark-gray:hover{color:#3a3a3a!important}
 .w3-border-amber,.w3-hover-border-amber:hover{border-color:#ffc107!important}
