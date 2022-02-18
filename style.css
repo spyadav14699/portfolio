@@ -119,7 +119,7 @@ a {
 }
 
 #projext_img:hover {
-    box-shadow: 5px 5px 2px rgba(0, 128, 128, 0.445);
+    box-shadow: 5px 5px 2px rgb(0, 128, 128);
 }
 
 #same_size_div{
@@ -128,7 +128,7 @@ a {
 }
 #skills:hover {
     
-    box-shadow: 5px 5px 2px rgba(0, 128, 128, 0.445);
+    box-shadow: 5px 5px 2px rgb(0, 128, 128);
 }
 
 #textp {
