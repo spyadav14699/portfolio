@@ -64,11 +64,13 @@
 
 
 #socialmedia {
+
     margin-top: 20%;
-    width: 50%;
+    width: 100%;
     display: flex;
     margin: auto;
     gap: 10%;
+    
     
 }
 
@@ -126,10 +128,10 @@ a {
     width: 30rem;
   height: 355rem;
 }
-#skills:hover {
+/* #skills:hover {
     
     box-shadow: 5px 5px 2px rgb(0, 128, 128);
-}
+} */
 
 #textp {
     font-size: 1.2rem;
@@ -143,6 +145,11 @@ a {
 
 #experience {
     font-size: 2rem;
+}
+#socialmedia1 {
+    display: flex;
+    gap: 2rem;
+
 }
 
 
