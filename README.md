@@ -1,5 +1,5 @@
 # portfolio
-# Hello everyone this is the Official portfolio of Surya Pratap Yadav
+
 
 - Setup is very easy and you get a portfolio template of your own for free.
 - To add your details, you just need simple editing skills. No code changes required!
