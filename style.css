@@ -64,12 +64,13 @@
 
 
 #socialmedia {
-
+  text-align: center;
     margin-top: 20%;
     width: 100%;
     display: flex;
     margin: auto;
     gap: 10%;
+    margin-left: 20%;
     
     
 }
