@@ -1,10 +1,6 @@
 # portfolio
 
 
-- Setup is very easy and you get a portfolio template of your own for free.
-- To add your details, you just need simple editing skills. No code changes required!
-- Simple and Fast website User Interface
-
 ### Demo
 For Demo of this template you can visit https://spyadav14699.github.io/portfolio/#
 
