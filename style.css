@@ -48,7 +48,9 @@
     /* margin: auto; */
     width: 30%;
 }
-
+#center_resume {
+    margin-left: 20%;
+}
 #icon-for {
     font-size: 3em;
     color: white;
